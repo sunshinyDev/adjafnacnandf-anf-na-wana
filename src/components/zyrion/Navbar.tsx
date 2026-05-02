@@ -34,9 +34,9 @@ const Navbar = () => {
     <header className={`fixed top-0 left-0 right-0 z-50 transition-smooth ${scrolled ? "backdrop-blur-xl bg-background/80 border-b border-border/50 py-3" : "bg-transparent py-5"}`}>
       <nav className="container mx-auto flex items-center justify-between px-6">
         <a href="#" className="flex items-center gap-2 group shrink-0">
-          <div className="relative flex items-center justify-center w-12 h-12 md:w-16 md:h-16">
+          <div className="relative flex items-center justify-center w-16 h-16 md:w-24 md:h-24 transition-smooth group-hover:scale-105">
             <div className="absolute inset-0 bg-primary blur-xl opacity-40 group-hover:opacity-80 transition-smooth rounded-full" />
-            <img src={logoImg} alt="Zyrion Play Logo" className="relative w-full h-full object-contain drop-shadow-[0_0_15px_rgba(0,229,255,0.5)]" />
+            <img src={logoImg} alt="Zyrion Play Logo" className="relative w-full h-full object-contain drop-shadow-[0_0_15px_rgba(0,229,255,0.5)] scale-125" />
           </div>
         </a>
 
